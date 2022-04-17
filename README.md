@@ -1,5 +1,5 @@
 # Calculadora
-A calculadora contém quatro operações, sendo elas, divisão, multiplicação, soma e subtração além de ter opção de incluir parênteses e opção de limpar o visor.
+A calculadora contém quatro operações, sendo elas, divisão, multiplicação, soma e subtração além de ter opção de incluir parênteses, ponto para números quebrados e opção de limpar o visor.
 
 <img src="tela.png" alt="calculadora">
 
