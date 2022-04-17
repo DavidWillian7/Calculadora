@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+.calculadora{
+    width: 310px;
+    height: 355px;
+    margin: 80px auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.resultado{
+    text-align: right;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    height: 40px;
+}
+
+.linha-teclas{
+    margin-left: 10px;
+}
+
+.teclas-cinza{
+    width: 60px;
+    height: 40px;
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border: 1px solid #dadce0;
+    border-radius: 5px;
+    background: #dadce0;
+    color: #202124;
+}
+
+.teclas{
+    margin-left: 5px;
+    width: 60px;
+    height: 40px;
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    background: #f1f3f4;
+    color: #202124;
+    border-radius: 5px;
+    border: 1px solid #f1f3f4;
+}
+
+.tecla-resultado{
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+    background: #4285f4;
+    color: #fff;
+    border: 1px solid #4285f4;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.teclas-cinza:hover{
+    background-color: #ddd;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #aaa;
+    cursor: pointer;
+}
+
+.teclas:hover{
+    background-color: #ddd;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #aaa;
+    cursor: pointer;
+}
+
+.tecla-resultado:hover{
+    background-color: #307CF9;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #1857BB;
+    cursor: pointer;
+}

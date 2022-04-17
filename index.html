@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculadora">
+        <input id="visor" type="text" class="resultado" placeholder="0" disabled="disabled"/>
+        <div class="linha-teclas">
+            <button onclick="calcula('acao','(')" type="button" class="teclas-cinza">(</button>
+            <button onclick="calcula('acao',')')" type="button" class="teclas-cinza">)</button>
+            <button onclick="calcula('acao','/')" type="button" class="teclas-cinza">/</button>
+            <button onclick="calcula('acao','C')" type="button" class="teclas-cinza">C</button>
+        </div>
+        <div class="linha-teclas">
+            <button onclick="calcula('valor',7)" type="button" class="teclas">7</button>
+            <button onclick="calcula('valor',8)" type="button" class="teclas">8</button>
+            <button onclick="calcula('valor',9)" type="button" class="teclas">9</button>
+            <button onclick="calcula('acao','*')" type="button" class="teclas-cinza">x</button>
+        </div>
+        <div class="linha-teclas">
+            <button onclick="calcula('valor',4)" type="button" class="teclas">4</button>
+            <button onclick="calcula('valor',5)" type="button" class="teclas">5</button>
+            <button onclick="calcula('valor',6)" type="button" class="teclas">6</button>
+            <button onclick="calcula('acao','+')" type="button" class="teclas-cinza">+</button>
+        </div>
+        <div class="linha-teclas">
+            <button onclick="calcula('valor',1)" type="button" class="teclas">1</button>
+            <button onclick="calcula('valor',2)" type="button" class="teclas">2</button>
+            <button onclick="calcula('valor',3)" type="button" class="teclas">3</button>
+            <button onclick="calcula('acao','-')" type="button" class="teclas-cinza">-</button>
+        </div>
+        <div class="linha-teclas">
+            <button onclick="calcula('valor',0)" type="button" class="teclas">0</button>
+            <button onclick="calcula('acao','.')" type="button" class="teclas">.</button>
+            <button onclick="calcula('acao','=')" type="button" class="tecla-resultado">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
